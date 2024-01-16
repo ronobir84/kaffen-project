@@ -33,7 +33,7 @@ const Banner = () => {
                     <h2 className="text-white md:text-[90px] md:font-extrabold text-5xl font-bold ">The Paris <br /> Coffee  House</h2>
                     <div className="">
                         <a href="#" className="custom-btn btn-14 relative  top-6 ">explore more</a>
-                        <a href="#" className="custom-btn btn-15 relative left-5  top-6 ">get delivery</a>
+                        <a href="#" className="custom-btn btn-15 relative md:left-5 left-4  top-6 ">get delivery</a>
                          
                     </div>
                 </div>
