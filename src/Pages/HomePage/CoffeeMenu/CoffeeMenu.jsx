@@ -7,20 +7,20 @@ import img6 from "../../../assets/image/coffee-menu6.jpg"
 
 const CoffeeMenu = () => {
     return (
-        <div id="main-background" className="">
+        <div id="main-background" className="mt-16 py-36">
             <div>
-                <div className="text-center space-y-2">
+                <div className="text-center space-y-2  ">
                     <p className="text-xl font-medium text-[#B99272]">CHOOSE BEST COFFEE</p>
                     <h2 className="text-5xl font-bold text-white">Kaffen Popular Coffee Menu</h2>
                 </div>
-                <div>
-                    <div className="grid grid-cols-1 md:grid-cols-2">
+                <div  className="md:mx-32 mt-16">
+                    <div id="menu-back" className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#090C0F] py-16 md:px-20 ">
 
 
                         {/* fist coffee card */}
                         <div className="flex items-center gap-10">
                             <div>
-                                <img className="w-56 h-52 rounded-lg" src={img1} alt="" />
+                                <img className="w-56 md:h-52 h-48 rounded-lg" src={img1} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Americano Coffee</h1>
@@ -33,7 +33,7 @@ const CoffeeMenu = () => {
                         {/* second coffee card */}
                         <div className="flex items-center gap-10">
                             <div>
-                                <img className="w-56 h-52 rounded-lg" src={img2} alt="" />
+                                <img className="w-56 md:h-52 h-52 rounded-lg" src={img2} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Espresso Coffee</h1>
@@ -45,7 +45,7 @@ const CoffeeMenu = () => {
                         {/* third coffee card */}
                         <div className="flex items-center gap-10">
                             <div>
-                                <img className="w-56 h-52 rounded-lg" src={img3} alt="" />
+                                <img className="w-56 md:h-52 h-48 rounded-lg" src={img3} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Barista Pouring Syrup</h1>
@@ -58,7 +58,7 @@ const CoffeeMenu = () => {
                         {/* four coffee card */}
                         <div className="flex items-center gap-10">
                             <div>
-                                <img className="w-56 h-52 rounded-lg" src={img4} alt="" />
+                                <img className="w-56 md:h-52 h-48 rounded-lg" src={img4} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Cold - Coffee</h1>
@@ -70,7 +70,7 @@ const CoffeeMenu = () => {
                         {/* five coffee card */}
                         <div className="flex items-center gap-10">
                             <div>
-                                <img className="w-56 h-52 rounded-lg" src={img5} alt="" />
+                                <img className="w-56 md:h-52 h-48 rounded-lg" src={img5} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Cappuccino Arabica</h1>
@@ -82,7 +82,7 @@ const CoffeeMenu = () => {
                         {/* six coffee card */}
                         <div className="flex items-center gap-10">
                             <div>
-                                <img className="w-56 h-52 rounded-lg" src={img6} alt="" />
+                                <img className="w-56 md:h-52 h-48 rounded-lg" src={img6} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Milk Cream Coffee</h1>

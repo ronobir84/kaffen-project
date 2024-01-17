@@ -6,7 +6,17 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
-  
+#menu-back{
+  background-image: url("./assets/image/menu-bg.png");
+      background-repeat: no-repeat;
+       background-size: 40%;
+       background-position: center;    
+}
+#main-background{
+  background-image: url("./assets/image/main-bg.jpg");
+  background-attachment: fixed;
+  min-height: 100vh;
+}
 .custom-btn {
   color: #fff;
   text-decoration: none;

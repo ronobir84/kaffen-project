@@ -23,7 +23,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <div className='container max-w-full '>
+    <div className='container max-w-full bg-[#090C0F]'>
       <RouterProvider router={router} />
     </div>
   </React.StrictMode>,
