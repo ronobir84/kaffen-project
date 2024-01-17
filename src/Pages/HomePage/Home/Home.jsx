@@ -2,6 +2,7 @@ import AboutMenu from "../AboutMenu/AboutMenu";
 import AboutUs from "../AboutUs/AboutUs";
 import Banner from "../Banner/Banner";
 import CoffeeMenu from "../CoffeeMenu/CoffeeMenu";
+import FoundedCoffee from "../FoundedCoffee/FoundedCoffee";
 
  
 const Home = () => {
@@ -16,6 +17,9 @@ const Home = () => {
             </div>
             <div>
                 <CoffeeMenu></CoffeeMenu>
+            </div>
+            <div>
+                <FoundedCoffee></FoundedCoffee>
             </div>
         </div>
     );
