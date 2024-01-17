@@ -13,14 +13,14 @@ const CoffeeMenu = () => {
                     <p className="text-xl font-medium text-[#B99272]">CHOOSE BEST COFFEE</p>
                     <h2 className="text-5xl font-bold text-white">Kaffen Popular Coffee Menu</h2>
                 </div>
-                <div  className="md:mx-32 mt-16">
-                    <div id="menu-back" className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#090C0F] py-16 md:px-20 ">
+                <div className="md:mx-32 mt-16  mx-4 ">
+                    <div id="menu-back" className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#090C0F] py-16 md:px-20 px-5">
 
 
                         {/* fist coffee card */}
                         <div className="flex items-center gap-10">
                             <div>
-                                <img className="w-56 md:h-52 h-48 rounded-lg" src={img1} alt="" />
+                                <img className="w-56  md:h-52 h-48 rounded-lg" src={img1} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Americano Coffee</h1>
@@ -33,7 +33,7 @@ const CoffeeMenu = () => {
                         {/* second coffee card */}
                         <div className="flex items-center gap-10">
                             <div>
-                                <img className="w-56 md:h-52 h-52 rounded-lg" src={img2} alt="" />
+                                <img className="w-56   md:h-52 h-48 rounded-lg" src={img2} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Espresso Coffee</h1>
