@@ -19,8 +19,8 @@ const CoffeeMenu = () => {
 
                         {/* fist coffee card */}
                         <div className="flex items-center gap-10">
-                            <div>
-                                <img className="w-56  md:h-52 h-48 rounded-lg" src={img1} alt="" />
+                            <div className="overflow-hidden rounded-lg">
+                                <img className="w-56  md:h-52 h-48 rounded-lg transition ease-in-out delay-150   hover:-translate-y-0 hover:scale-110   duration-700 cursor-pointer" src={img1} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Americano Coffee</h1>
@@ -32,8 +32,8 @@ const CoffeeMenu = () => {
 
                         {/* second coffee card */}
                         <div className="flex items-center gap-10">
-                            <div>
-                                <img className="w-56   md:h-52 h-48 rounded-lg" src={img2} alt="" />
+                            <div className="overflow-hidden rounded-lg">
+                                <img className="w-56   md:h-52 h-48 rounded-lg transition ease-in-out delay-150   hover:-translate-y-0 hover:scale-110   duration-700 cursor-pointer" src={img2} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Espresso Coffee</h1>
@@ -44,8 +44,8 @@ const CoffeeMenu = () => {
 
                         {/* third coffee card */}
                         <div className="flex items-center gap-10">
-                            <div>
-                                <img className="w-56 md:h-52 h-48 rounded-lg" src={img3} alt="" />
+                            <div className="overflow-hidden rounded-lg">
+                                <img className="w-56 md:h-52 h-48 rounded-lg transition ease-in-out delay-150   hover:-translate-y-0 hover:scale-110   duration-700 cursor-pointer" src={img3} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Barista Pouring Syrup</h1>
@@ -57,8 +57,8 @@ const CoffeeMenu = () => {
 
                         {/* four coffee card */}
                         <div className="flex items-center gap-10">
-                            <div>
-                                <img className="w-56 md:h-52 h-48 rounded-lg" src={img4} alt="" />
+                            <div className="overflow-hidden rounded-lg">
+                                <img className="w-56 md:h-52 h-48 rounded-lg transition ease-in-out delay-150   hover:-translate-y-0 hover:scale-110   duration-700 cursor-pointer" src={img4} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Cold - Coffee</h1>
@@ -69,8 +69,8 @@ const CoffeeMenu = () => {
 
                         {/* five coffee card */}
                         <div className="flex items-center gap-10">
-                            <div>
-                                <img className="w-56 md:h-52 h-48 rounded-lg" src={img5} alt="" />
+                            <div className="overflow-hidden rounded-lg">
+                                <img className="w-56 md:h-52 h-48 rounded-lg transition ease-in-out delay-150   hover:-translate-y-0 hover:scale-110   duration-700 cursor-pointer" src={img5} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Cappuccino Arabica</h1>
@@ -81,8 +81,8 @@ const CoffeeMenu = () => {
 
                         {/* six coffee card */}
                         <div className="flex items-center gap-10">
-                            <div>
-                                <img className="w-56 md:h-52 h-48 rounded-lg" src={img6} alt="" />
+                            <div className="overflow-hidden rounded-lg">
+                                <img className="w-56 md:h-52 h-48 rounded-lg transition ease-in-out delay-150   hover:-translate-y-0 hover:scale-110   duration-700 cursor-pointer" src={img6} alt="" />
                             </div>
                             <div className="space-y-4">
                                 <h1 className="text-2xl font-bold text-white">Milk Cream Coffee</h1>
