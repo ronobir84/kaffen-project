@@ -1,6 +1,7 @@
 import AboutMenu from "../AboutMenu/AboutMenu";
 import AboutUs from "../AboutUs/AboutUs";
 import Banner from "../Banner/Banner";
+import CoffeeItem from "../CoffeeItem/CoffeeItem";
 import CoffeeMenu from "../CoffeeMenu/CoffeeMenu";
 import FoundedCoffee from "../FoundedCoffee/FoundedCoffee";
 
@@ -20,6 +21,9 @@ const Home = () => {
             </div>
             <div>
                 <FoundedCoffee></FoundedCoffee>
+            </div>
+            <div className="bg-[#0E1317]">
+                <CoffeeItem></CoffeeItem>
             </div>
         </div>
     );
