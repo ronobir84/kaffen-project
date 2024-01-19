@@ -21,6 +21,11 @@ body{
   background-image: url("./assets/image/client-container-img.jpg");
   
 }
+.booking-background{
+  background-image: url("./assets/image//booking-bg.jpg");
+  height: 250px;
+     
+}
 .custom-btn {
   color: #fff;
   text-decoration: none;

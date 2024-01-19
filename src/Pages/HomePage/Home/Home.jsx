@@ -1,6 +1,7 @@
 import AboutMenu from "../AboutMenu/AboutMenu";
 import AboutUs from "../AboutUs/AboutUs";
 import Banner from "../Banner/Banner";
+import Booking from "../Booking/Booking";
 import CoffeeClients from "../CoffeeClients/CoffeeClients";
 import CoffeeItem from "../CoffeeItem/CoffeeItem";
 import CoffeeMenu from "../CoffeeMenu/CoffeeMenu";
@@ -36,6 +37,9 @@ const Home = () => {
             </div>
             <div>
                 <CoffeeNews></CoffeeNews>
+            </div>
+            <div>
+                <Booking></Booking>
             </div>
         </div>
     );
