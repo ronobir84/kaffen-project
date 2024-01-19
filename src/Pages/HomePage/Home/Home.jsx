@@ -4,6 +4,7 @@ import Banner from "../Banner/Banner";
 import CoffeeClients from "../CoffeeClients/CoffeeClients";
 import CoffeeItem from "../CoffeeItem/CoffeeItem";
 import CoffeeMenu from "../CoffeeMenu/CoffeeMenu";
+import CoffeeNews from "../CoffeeNews/CoffeeNews";
 import FoundedCoffee from "../FoundedCoffee/FoundedCoffee";
 import Premium from "../Premium/Premium";
 
@@ -32,6 +33,9 @@ const Home = () => {
             </div>
             <div>
                 <Premium></Premium>
+            </div>
+            <div>
+                <CoffeeNews></CoffeeNews>
             </div>
         </div>
     );
