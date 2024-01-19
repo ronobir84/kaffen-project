@@ -5,6 +5,7 @@ import CoffeeClients from "../CoffeeClients/CoffeeClients";
 import CoffeeItem from "../CoffeeItem/CoffeeItem";
 import CoffeeMenu from "../CoffeeMenu/CoffeeMenu";
 import FoundedCoffee from "../FoundedCoffee/FoundedCoffee";
+import Premium from "../Premium/Premium";
 
  
 const Home = () => {
@@ -28,6 +29,9 @@ const Home = () => {
             </div>
             <div>
                 <CoffeeClients></CoffeeClients>
+            </div>
+            <div>
+                <Premium></Premium>
             </div>
         </div>
     );

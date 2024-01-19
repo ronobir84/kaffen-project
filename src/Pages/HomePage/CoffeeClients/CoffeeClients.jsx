@@ -17,11 +17,11 @@ const CoffeeClients = () => {
                     </div>
                     <div className=" space-y-3 text-center px-6">
                         <div className="rating relative bottom-3 ">
-                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#b99272]" />
-                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#b99272]" checked />
-                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#b99272]" />
-                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#b99272]" />
-                            <input type="radio" name="rating-2" className="mask mask-star-2 bg-[#b99272]" />
+                            <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#b99272]" />
+                            <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#b99272]"   />
+                            <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#b99272]" />
+                            <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#b99272]" />
+                            <input type="radio" name="rating-4" className="mask mask-star-2 bg-[#b99272]" />
                         </div>
                         <div>
                             <p className="text-lg text-gray-400 font-medium ">Sed ut perspiciatis unde omnis natus error luptatem accusantium doloremqu laudantium totam remriam eaque quae abillo</p>
