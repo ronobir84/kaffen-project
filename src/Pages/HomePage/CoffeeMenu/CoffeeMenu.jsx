@@ -14,7 +14,7 @@ const CoffeeMenu = () => {
                     <h2 className="text-5xl font-bold text-white">Kaffen Popular Coffee Menu</h2>
                 </div>
                 <div className="md:mx-32 mt-16  mx-4 ">
-                    <div id="menu-back" className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#090C0F] py-16 md:px-20 px-5">
+                    <div data-aos="zoom-in-down" id="menu-back" className="grid grid-cols-1 md:grid-cols-2 gap-8 bg-[#090C0F] py-16 md:px-20 px-5">
 
 
                         {/* fist coffee card */}

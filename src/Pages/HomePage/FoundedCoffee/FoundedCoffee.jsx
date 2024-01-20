@@ -3,7 +3,7 @@ import FoundedCoffee1 from "../../../assets/image/Founded-img-1.png"
 import FoundedCoffee2 from "../../../assets/image/Founded-img-2.png"
 const FoundedCoffee = () => {
     return (
-        <div className="mt-20 md:mx-32 bg-[#090C0F] py-24">
+        <div data-aos="fade-down-right" className="mt-20 md:mx-32 bg-[#090C0F] py-24">
             <div className="grid grid-cols-1 md:grid-cols-2 items-center">
                 <div>
                     <img className="  relative  md:right-16 bottom-16 w-20" src={FoundedCoffee1} alt="" />

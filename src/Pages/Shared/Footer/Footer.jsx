@@ -3,12 +3,26 @@ import logo from "../../../assets/image/logo.png"
 import { IoLocationOutline } from "react-icons/io5";
 import { MdOutlineEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import { initLightboxJS } from 'lightbox.js-react'
+import 'lightbox.js-react/dist/index.css'
+import { SlideshowLightbox } from 'lightbox.js-react'
+import { useEffect } from "react";
+import img1 from "../../../assets/image/coffee-item1.jpg"
+import img2 from "../../../assets/image/coffee-item2.jpg"
+import img3 from "../../../assets/image/coffee-item3.jpg"
+import img4 from "../../../assets/image/coffee-item4.jpg"
+import img5 from "../../../assets/image/coffee-item5.jpg"
+ 
+
 const Footer = () => {
+    useEffect(() => {
+        initLightboxJS("Insert your License Key here", "Insert plan type here");
+    }, []);
     return (
-        <div className="mt-20">
-            <footer className="footer p-10 h-96 bg-[#090C0F] ">
+        <div className="mt-20 md:px-20">
+            <footer className="footer p-10 md:h-96 md:min-h-0 min-h-screen bg-[#090C0F] ">
                 <div>
-                    <img className="w-36" src={logo} alt="" />
+                    <Link><img className="w-36" src={logo} alt="" /></Link>
                 </div>
                 <nav>
                     <h1 className=" text-3xl font-bold text-white">Working Hours</h1>
@@ -58,7 +72,14 @@ const Footer = () => {
                 </nav>
                 <nav>
                     <h1 className="text-3xl font-bold text-white">Gallery</h1>
-                     
+                    <SlideshowLightbox className="container grid grid-cols-3 gap-2 mx-auto">
+                        <img className="w-24 h-24 bg-cover   " src={img1} />
+                        <img className="w-24 h-24 bg-cover" src={img2} />
+                        <img className="w-24 h-24 bg-cover " src={img3} />
+                        <img className="w-24 h-24 bg-cover " src={img4} /> 
+                        <img className="w-24 h-24 bg-cover" src={img5} /> 
+                        <img className="w-24 h-24 bg-cover " src= {img1} /> 
+                    </SlideshowLightbox> 
                 </nav>
             </footer>
         </div>

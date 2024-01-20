@@ -4,12 +4,12 @@ import clientImg2 from "../../../assets/image/client-img2.jpg"
 import clientImg3 from "../../../assets/image/client-img3.jpg"
 const CoffeeClients = () => {
     return (
-        <div className="main-container py-20">
+        <div  className="main-container py-20">
             <div className="text-center space-y-4">
                 <p className="text-xl font-medium text-[#b99272]">CUSTOMER FEEDBACK</p>
                 <h2 className="text-5xl text-white font-bold">What Our Clients Say</h2>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-4 md:space-y-0 space-y-14 md:mx-32 mx-[45px]  mt-36">
+            <div data-aos="fade-down-right" className="grid grid-cols-1 md:grid-cols-4 md:space-y-0 space-y-14 md:mx-32 mx-[45px]  mt-36">
                 {/* first client */}
                 <div className='w-80 h-[400px] bg-[#0E1317] rounded '>
                     <div className="relative bottom-10">

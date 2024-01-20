@@ -10,7 +10,7 @@ const CoffeeNews = () => {
                 <p className="text-xl font-medium text-[#b99272]">GET EVERY SINGLE UPDATE</p>
                 <h1 className="md:text-5xl text-4xl font-bold text-white">Read Some Latest Blog & News</h1>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-3 md:mx-32 mt-16">
+            <div data-aos="fade-down-right" className="grid grid-cols-1 md:grid-cols-3 md:mx-32 mt-16">
                 {/* first item */}
                 <div className="  ">
                     <div>
