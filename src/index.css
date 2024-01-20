@@ -6,6 +6,7 @@
 body{
     font-family: 'Oswald', sans-serif;
 }
+/* home section */
 #menu-back{
   background-image: url("./assets/image/menu-bg.png");
       background-repeat: no-repeat;
@@ -25,6 +26,12 @@ body{
   background-image: url("./assets/image//booking-bg.jpg");
   
      
+}
+/* about section */
+.main-banner{
+  background-image: url("./assets/about-page-img/banner-image.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
 }
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;600;700&display=swap');
 #style-font{

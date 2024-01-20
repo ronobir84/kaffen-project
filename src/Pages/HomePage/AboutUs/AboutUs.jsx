@@ -1,5 +1,5 @@
 import coffeeImg from "../../../assets/image/coffee-about.png"
- import coffeeClient from "../../../assets/image/coffee-client.png"
+import coffeeClient from "../../../assets/image/coffee-client.png"
 const AboutUs = () => {
     return (
         <div data-aos="zoom-in-down">

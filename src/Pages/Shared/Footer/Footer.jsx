@@ -20,6 +20,7 @@ const Footer = () => {
     }, []);
     return (
         <div className="mt-20 md:px-20">
+            
             <footer className="footer p-10 md:h-96 md:min-h-0 min-h-screen bg-[#090C0F] ">
                 <div>
                     <Link><img className="w-36" src={logo} alt="" /></Link>
@@ -70,7 +71,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </nav>
-                <nav>
+                <nav className="">
                     <h1 className="text-3xl font-bold text-white">Gallery</h1>
                     <SlideshowLightbox className="container grid grid-cols-3 gap-2 mx-auto">
                         <img className="w-24 h-24 bg-cover   " src={img1} />
