@@ -1,5 +1,8 @@
 import { Link } from "react-router-dom";
 import logo from "../../../assets/image/logo.png"
+import { IoLocationOutline } from "react-icons/io5";
+import { MdOutlineEmail } from "react-icons/md";
+import { FaPhoneAlt } from "react-icons/fa";
 const Footer = () => {
     return (
         <div className="mt-20">
@@ -9,23 +12,53 @@ const Footer = () => {
                 </div>
                 <nav>
                     <h1 className=" text-3xl font-bold text-white">Working Hours</h1>
-                    <a className="link link-hover ">Branding</a>
-                    <a className="link link-hover">Design</a>
-                    <a className="link link-hover">Marketing</a>
-                    <a className="link link-hover">Advertisement</a>
+                    <div className="space-y-2 pt-2">
+                        <h2 className="text-2xl text-white font-normal">Sunday - Thursday</h2>
+                        <p className="text-lg text-[#b99272]">08:00 am - 09:00pm</p>
+                    </div>
+                    <div className="space-y-2 pt-2">
+                        <h1 className="text-xl text-white font-normal">Only Friday</h1>
+                        <p className="text-lg text-[#b99272]">03:00 pm - 09:00pm</p>
+                    </div>
+                    <div>
+                        <h1 id="style-font" className="text-2xl font-semibold text-[#ff8a00]">Saturday Close</h1>
+                    </div>
                 </nav>
                 <nav>
                     <h1 className="text-3xl font-bold text-white">Company</h1>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
+                    <div className="flex gap-3 pt-2">
+                        <div>
+                            <IoLocationOutline className="text-5xl text-[#b99272]"></IoLocationOutline>
+                        </div>
+                        <div>
+                            <h2 className="text-xl font-semibold text-[#b99272]">Location :</h2>
+                            <p className="text-lg text-white">55 Main Street, New York</p>
+                        </div>
+                    </div>
+
+                    <div className="flex gap-3 pt-4">
+                        <div>
+                            <MdOutlineEmail className="text-5xl text-[#b99272]"></MdOutlineEmail>
+                        </div>
+                        <div>
+                            <h2 className="text-xl font-semibold text-[#b99272]">Email Address :</h2>
+                            <p className="text-lg text-white">kaffendev@gmail.com</p>
+                        </div>
+                    </div>
+                     
+                    <div className="flex gap-3 pt-4">
+                        <div>
+                            <FaPhoneAlt className="text-5xl text-[#b99272]"></FaPhoneAlt>
+                        </div>
+                        <div>
+                            <h2 className="text-xl font-semibold text-[#b99272]">Phone Number :</h2>
+                            <p className="text-lg text-white">+012 (345) 678 99</p>
+                        </div>
+                    </div>
                 </nav>
                 <nav>
                     <h1 className="text-3xl font-bold text-white">Gallery</h1>
-                    <a className="link link-hover">Terms of use</a>
-                    <a className="link link-hover">Privacy policy</a>
-                    <a className="link link-hover">Cookie policy</a>
+                     
                 </nav>
             </footer>
         </div>
