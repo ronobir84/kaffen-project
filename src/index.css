@@ -31,7 +31,7 @@ body{
 .main-banner{
   background-image: url("./assets/about-page-img/banner-image.jpg");
   background-repeat: no-repeat;
-  background-attachment: scroll;
+  
 }
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;600;700&display=swap');
 #style-font{
