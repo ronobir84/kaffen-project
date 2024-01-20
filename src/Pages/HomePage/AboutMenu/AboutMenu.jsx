@@ -6,7 +6,7 @@ import { LiaCoffeeSolid } from "react-icons/lia";
 import { IoFastFoodSharp } from "react-icons/io5";
 const AboutMenu = () => {
     return (
-        <div>
+        <div data-aos="fade-down-right">
             <div className="grid grid-cols-1 md:grid-cols-3 md:mx-32 mt-10 md:space-y-0 space-y-8 md:p-0 p-4">
                 <div className="brightness-50  transition ease-in-out delay-150 hover:-translate-y-3 hover:scale-100   duration-500">
                     <div className="">

@@ -2,7 +2,7 @@ import coffeeImg from "../../../assets/image/coffee-about.png"
  import coffeeClient from "../../../assets/image/coffee-client.png"
 const AboutUs = () => {
     return (
-        <div>
+        <div data-aos="zoom-in-down">
             <div className="grid grid-cols-1 md:grid-cols-2 md:p-0 p-4">
                 <div className="md:mt-44 md:ml-32 space-y-6">
                     <p className="text-xl text-[#b99272] font-medium ">ABOUT US</p>

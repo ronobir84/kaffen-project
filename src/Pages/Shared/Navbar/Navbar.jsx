@@ -28,7 +28,7 @@ const Navbar = () => {
                         </ul>
                     </div>
                     <div className="relative md:static md:left-0 left-44">
-                        <img className="w-36" src={logo} alt="" />
+                        <Link to="/"><img className="w-36" src={logo} alt="" /></Link>
                     </div>
                 </div>
                 <div className="navbar-center hidden lg:flex ">
