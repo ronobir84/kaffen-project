@@ -10,7 +10,7 @@ const AboutVideo = () => {
                 <iframe className="w-full md:min-h-screen h-[400px] rounded" src="https://www.youtube.com/embed/Gu6z6kIukgg" title="Lumion 9 Release Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div className="bg-[#090C0F] mt-16 py-20 md:mx-0 mx-4">
-                <div className="grid grid-cols-1 md:grid-cols-4 md:px-20 px-24 md:space-y-0 space-y-7">
+                <div className="grid grid-cols-1 md:grid-cols-4 md:px-20 px-24 md:space-y-0 space-y-7 ">
 
                     {/* first */}
                     <div className="space-y-5">

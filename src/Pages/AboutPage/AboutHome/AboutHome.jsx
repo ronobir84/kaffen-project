@@ -2,6 +2,7 @@ import AboutBanner from "../AboutBanner/AboutBanner";
 import AboutFounded from "../AboutBanner/AboutFounded/AboutFounded";
 import AboutPremium from "../AboutPremium/AboutPremium";
 import AboutVideo from "../AboutVideo/AboutVideo";
+import OurChefs from "../OurChefs/OurChefs";
 
  
 
@@ -19,6 +20,9 @@ const AboutHome = () => {
             </div>
             <div>
                 <AboutVideo></AboutVideo>
+            </div>
+            <div>
+                <OurChefs></OurChefs>
             </div>
         </div>
     );
