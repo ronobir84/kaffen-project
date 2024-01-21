@@ -4,7 +4,7 @@ import FoundedMin from "../../../../assets/about-page-img/Founded-min.png"
 
 const AboutFounded = () => {
     return (
-        <div className=" md:px-32 py-28  px-5 bg-[#0E1317]">
+        <div data-aos="zoom-in-down" className=" md:px-32 py-28  px-5 bg-[#0E1317]">
             <div className="grid grid-cols-1 md:grid-cols-2 ">
                 {/* text section */}
                 <div className="space-y-6 pt-10">

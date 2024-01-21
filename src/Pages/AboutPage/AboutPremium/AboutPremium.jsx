@@ -5,7 +5,7 @@ import { LiaTrophySolid } from "react-icons/lia";
 const AboutPremium = () => {
     return (
         <div className="mt-16 bg-[#090C0F] py-20 ">
-            <div className="grid grid-cols-1 md:grid-cols-4 md:px-32 md:space-y-0 space-y-10">
+            <div data-aos="fade-down-right" className="grid grid-cols-1 md:grid-cols-4 md:px-32 md:space-y-0 space-y-10">
                 {/* first */}
                 <div className="space-y-4  md:text-justify text-center">
                     

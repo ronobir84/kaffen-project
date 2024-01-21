@@ -6,11 +6,11 @@
 const AboutVideo = () => {
     return (
         <div className=" md:px-32 bg-[#0E1317] py-24 ">
-            <div className="md:px-0 px-4">
+            <div data-aos="zoom-in-down" className="md:px-0 px-4">
                 <iframe className="w-full md:min-h-screen h-[400px] rounded" src="https://www.youtube.com/embed/Gu6z6kIukgg" title="Lumion 9 Release Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             </div>
             <div className="bg-[#090C0F] mt-16 py-20 md:mx-0 mx-4">
-                <div className="grid grid-cols-1 md:grid-cols-4 md:px-20 px-24 md:space-y-0 space-y-7 ">
+                <div data-aos="fade-down-right" className="grid grid-cols-1 md:grid-cols-4 md:px-20 px-24 md:space-y-0 space-y-7 ">
 
                     {/* first */}
                     <div className="space-y-5">
