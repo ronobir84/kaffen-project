@@ -1,5 +1,9 @@
- 
 
+import ChefsImage1 from "../../../assets/about-page-img/Chefs-image1.jpg"
+import ChefsImage2 from "../../../assets/about-page-img/Chefs-image2.jpg"
+import ChefsImage3 from "../../../assets/about-page-img/Chefs-image3.jpg"
+import ChefsImage4 from "../../../assets/about-page-img/Chefs-image4.jpg"
+import { FaFacebookF } from "react-icons/fa";
 const OurChefs = () => {
     return (
         <div className="bg-[#090C0F] py-20">
@@ -14,8 +18,18 @@ const OurChefs = () => {
                         <p className="text-xl font-medium text-[#b99272]">Senior Chefs</p>
                     </div>
                     <div>
-                        <img src="" alt="" />
+                        <div className="mx-6 relative top-7 opacity-40 hover:opacity-80 duration-700">
+                            <img src={ChefsImage1} alt="" />
+                        </div>
+                        <div className="  relative mx-auto w-fit bottom-56">
+                            <h3 className="text-xl font-medium text-white">bowmankf@gmail.com</h3>
+                            <p className="text-xl font-medium text-white">+012 (345) 678 99</p>
+                        </div>
+                        <div>
+
+                        </div>
                     </div>
+                    
 
                 </div>
             </div>
