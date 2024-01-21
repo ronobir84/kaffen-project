@@ -1,3 +1,5 @@
+import Booking from "../../HomePage/Booking/Booking";
+import CoffeeClients from "../../HomePage/CoffeeClients/CoffeeClients";
 import AboutBanner from "../AboutBanner/AboutBanner";
 import AboutFounded from "../AboutBanner/AboutFounded/AboutFounded";
 import AboutPremium from "../AboutPremium/AboutPremium";
@@ -27,6 +29,12 @@ const AboutHome = () => {
             </div>
             <div>
                 <KitchenItem></KitchenItem>
+            </div>
+            <div>
+                <CoffeeClients></CoffeeClients>
+            </div>
+            <div>
+                <Booking></Booking>
             </div>
         </div>
     );
