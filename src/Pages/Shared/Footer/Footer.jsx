@@ -19,7 +19,7 @@ const Footer = () => {
         initLightboxJS("Insert your License Key here", "Insert plan type here");
     }, []);
     return (
-        <div className="mt-20 md:px-20 ">
+        <div className="mt-20 md:px-20 hidden">
             
             <footer className="footer p-10 md:h-96 md:min-h-0 min-h-screen bg-[#090C0F] ">
                 <div>
