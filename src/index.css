@@ -36,6 +36,10 @@ body{
 .img-min{
   color: rgba(255,255,255,.6)
 }
+/* menu page */
+.menu-banner{
+  background-image: url(./assets/menu-page-img/banner-img.jpg);
+}
  
 @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@400;600;700&display=swap');
 #style-font{

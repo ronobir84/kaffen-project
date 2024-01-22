@@ -1,9 +1,13 @@
+import MenuBanner from "../MenuBanner/MenuBanner";
+
  
 
 const MenuHome = () => {
     return (
         <div className="">
-            <h2>Hello Menu</h2>
+            <div>
+                <MenuBanner></MenuBanner>
+             </div>
         </div>
     );
 };
